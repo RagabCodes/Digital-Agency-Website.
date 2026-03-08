@@ -1,0 +1,65 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.navbar-brand span {
+    color: #0d6efd;
+}
+
+/* Hero Section */
+.hero-section {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    padding-top: 80px;
+}
+
+/* Services */
+.service-card {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    background-color: #0d6efd !important;
+}
+
+.service-card:hover h4,
+.service-card:hover p,
+.service-card:hover i {
+    color: #fff !important;
+}
+
+/* Portfolio */
+.portfolio-card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .05);
+    transition: .3s;
+}
+
+.portfolio-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .08);
+}
+
+.portfolio-icon {
+    font-size: 48px;
+    color: #0d6efd;
+    margin-bottom: 15px;
+}
+
+/* Form Styles */
+.form-control:focus {
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.15);
+    border-color: #0d6efd;
+}
