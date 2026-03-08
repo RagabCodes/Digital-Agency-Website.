@@ -66,7 +66,7 @@ The landing page contains the following sections:
 The project can be viewed live using **GitHub Pages**.
 
 Example link:
-https://ragabcodes.github.io/Digital-Agency-Website
+https://ragabcodes.github.io/Digital-Agency-Website./
 
 ---
 
